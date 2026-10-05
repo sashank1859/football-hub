@@ -1,1 +1,99 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Football Hub</title><link rel='stylesheet' href='style.css'></head><body><header><b>⚽ Football Hub</b><nav><a href='#live'>Live</a><a href='#upcoming'>Upcoming</a><a href='#lineups'>Lineups</a></nav></header><main><section class='hero'><small>FOOTBALL • NEPAL TIME</small><h1>Scores, fixtures & lineups.</h1><p>Your simple football dashboard.</p></section><section id='live'><h2>Live & Recent <em>DEMO</em></h2><div id='liveList' class='grid'></div></section><section id='upcoming'><h2>Upcoming Matches</h2><div id='upcomingList' class='grid'></div></section><section id='lineups'><h2>Featured Lineup</h2><div class='lineup'><h3>Barcelona</h3><small>4–3–3</small><div id='players'></div></div></section></main><footer>Prototype — connect a legitimate football-data API for live information.</footer><script src='app.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Hub ⚽</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>⚽ Football Hub</h1>
+    <p>Scores • Fixtures • Lineups</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#live">Live</a>
+    <a href="#upcoming">Upcoming</a>
+    <a href="#lineups">Lineups</a>
+  </nav>
+
+  <main id="home">
+
+    <section class="hero">
+      <h2>Welcome to Football Hub</h2>
+      <p>Your simple football dashboard in Nepal Time 🇳🇵</p>
+    </section>
+
+    <section id="live">
+      <h2>🔴 Live & Recent</h2>
+
+      <div class="match-card">
+        <small>La Liga</small>
+        <h3>Barcelona 2 - 1 Athletic Club</h3>
+        <p>Finished</p>
+      </div>
+
+      <div class="match-card">
+        <small>Premier League</small>
+        <h3>Arsenal 1 - 1 Chelsea</h3>
+        <p>🔴 Live • 72'</p>
+      </div>
+    </section>
+
+    <section id="upcoming">
+      <h2>📅 Upcoming Matches</h2>
+
+      <div class="match-card">
+        <small>La Liga</small>
+        <h3>Real Madrid vs Villarreal</h3>
+        <p>Tomorrow • 1:45 AM 🇳🇵</p>
+      </div>
+
+      <div class="match-card">
+        <small>Champions League</small>
+        <h3>Barcelona vs Inter</h3>
+        <p>Oct 6 • 12:45 AM 🇳🇵</p>
+      </div>
+
+      <div class="match-card">
+        <small>Premier League</small>
+        <h3>Liverpool vs Manchester City</h3>
+        <p>Oct 7 • 9:45 PM 🇳🇵</p>
+      </div>
+    </section>
+
+    <section id="lineups">
+      <h2>📋 Featured Lineup</h2>
+
+      <div class="lineup-card">
+        <h3>Barcelona</h3>
+        <p><strong>Formation: 4-3-3</strong></p>
+
+        <ul>
+          <li>🧤 Goalkeeper</li>
+          <li>🛡️ Defender</li>
+          <li>🛡️ Defender</li>
+          <li>🛡️ Defender</li>
+          <li>🛡️ Defender</li>
+          <li>⚙️ Midfielder</li>
+          <li>⚙️ Midfielder</li>
+          <li>⚙️ Midfielder</li>
+          <li>⚡ Forward</li>
+          <li>⚡ Forward</li>
+          <li>⚡ Forward</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>⚽ Football Hub • Made for football fans</p>
+  </footer>
+
+</body>
+</html>
